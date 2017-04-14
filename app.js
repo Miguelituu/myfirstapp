@@ -151,7 +151,7 @@ function getMessageCLima(temperatura){
 	if(temperatura > 30){
 		return "Nos encontramos a " + temperatura +". Hay demasiado calor, comprate una gaseosa :V"
 	}else{
-		return "Nos encontramos a " + temperatura +" es un bonito dia para salir"
+		return "Nos encontramos a " + temperatura +" es un lindo dia para salir"
 	}
 }
 
