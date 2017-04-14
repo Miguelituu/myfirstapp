@@ -1,0 +1,20 @@
+{
+  "name": "facebook-messenger",
+  "version": "1.0.0",
+  "description": "facebook para messenger usando nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Miguel Hernández",
+  "license": "ISC",
+  "dependencies": {
+    "WebHook": "^1.0.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "heroku": "^0.2.0",
+    "nodemon": "^1.11.0",
+    "parse": "^1.9.2",
+    "request": "^2.81.0"
+  }
+}
