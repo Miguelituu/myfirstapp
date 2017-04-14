@@ -65,7 +65,7 @@ function evaluarMensaje(senderID, messageText){
 			enviarMensajeTexto(senderID, getMessageCLima(_temperatura))
 		})
 	}else{
-		mensaje = 'si ves este mensaje no podre atenderte ahora T_T '+ messageText
+		mensaje = 'si ves este mensaje no podre atenderte ahora T_T '
 	}
 
 	enviarMensajeTexto(senderID, mensaje)
