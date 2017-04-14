@@ -22,7 +22,7 @@ app.get('/webhook',function(req, res){
 	if(req.query['hub.verify_token'] === 'alex_token'){
 		res.send(req.query['hub.challenge'])
 	}else{
-		res.send('Tu no tienes que entrar aqui')
+		res.send('Si se esta modificando')
 	}
 })
 
@@ -65,7 +65,7 @@ function evaluarMensaje(senderID, messageText){
 			enviarMensajeTexto(senderID, getMessageCLima(_temperatura))
 		})
 	}else{
-		mensaje = 'solo se repetir las cosas T_T '+ messageText
+		mensaje = 'si ves este mensaje no podre atenderte ahora T_T '+ messageText
 	}
 
 	enviarMensajeTexto(senderID, mensaje)
